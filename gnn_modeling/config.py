@@ -1,0 +1,21 @@
+
+BEST_PARAMETERS_List_ACIE_THF_ee_T_Yes = {"lr": 0.0006247080706030406, "hl_size": 399, "channel_size": 278, "num_layers": 5, "bs": 4}
+BEST_PARAMETERS_List_ACIE_THF_ee_T_No = {"lr": 0.0009157584694491022, "hl_size": 329, "channel_size": 76, "num_layers": 4, "bs": 13}
+BEST_PARAMETERS_List_ACIE_THF_ddG_T_Yes = {"lr": 0.002607228878519314, "hl_size": 358, "channel_size": 260, "num_layers": 4, "bs": 4}
+BEST_PARAMETERS_List_ACIE_THF_ddG_T_No = {"lr": 0.0005682786766284227, "hl_size": 353, "channel_size": 149, "num_layers": 4, "bs": 5}
+BEST_PARAMETERS_List_ACIE_THP_ee_T_Yes = {"lr": 0.002135740550639241, "hl_size": 358, "channel_size": 207, "num_layers": 3, "bs": 2}
+BEST_PARAMETERS_List_ACIE_THP_ee_T_No = {"lr": 0.0045875648403452245, "hl_size": 439, "channel_size": 392, "num_layers": 4, "bs": 2}
+BEST_PARAMETERS_List_ACIE_THP_ddG_T_Yes = {"lr": 0.0044789047947138725, "hl_size": 228, "channel_size": 346, "num_layers": 3, "bs": 19}
+BEST_PARAMETERS_List_ACIE_THP_ddG_T_No = {"lr": 0.000985714557590607, "hl_size": 226, "channel_size": 53, "num_layers": 5, "bs": 11}
+BEST_PARAMETERS_Sunoj_PNAS_ee_T_Yes = {"lr": 0.0030630616585158514, "hl_size": 476, "channel_size": 409, "num_layers": 3, "bs": 10}
+BEST_PARAMETERS_Sunoj_PNAS_ee_T_No = {"lr": 0.007037613336085156, "hl_size": 308, "channel_size": 43, "num_layers": 3, "bs": 6}
+BEST_PARAMETERS_Sunoj_PNAS_ddG_T_Yes = {"lr": 0.002068738327452407, "hl_size": 264, "channel_size": 171, "num_layers": 5, "bs": 7}
+BEST_PARAMETERS_Sunoj_PNAS_ddG_T_No = {"lr": 0.002490315585314679, "hl_size": 483, "channel_size": 132, "num_layers": 3, "bs": 7}
+BEST_PARAMETERS_HongAckermann_NatSyn_ee_T_Yes = {"lr": 0.002423014608538103, "hl_size": 479, "channel_size": 261, "num_layers": 3, "bs": 3}
+BEST_PARAMETERS_HongAckermann_NatSyn_ee_T_No = {"lr": 0.004030768669940704, "hl_size": 283, "channel_size": 32, "num_layers": 4, "bs": 3}
+BEST_PARAMETERS_HongAckermann_NatSyn_ddG_T_Yes = {"lr": 0.001811556372654785, "hl_size": 488, "channel_size": 163, "num_layers": 3, "bs": 21}
+BEST_PARAMETERS_HongAckermann_NatSyn_ddG_T_No = {"lr": 4.175436384426664e-05, "hl_size": 362, "channel_size": 106, "num_layers": 4, "bs": 22}
+BEST_PARAMETERS_SigmanToste_Science_ee_T_Yes = {"lr": 0.003480901039629827, "hl_size": 280, "channel_size": 332, "num_layers": 4, "bs": 5}
+BEST_PARAMETERS_SigmanToste_Science_ee_T_No = {"lr": 0.0022015224096985195, "hl_size": 94, "channel_size": 95, "num_layers": 3, "bs": 5}
+BEST_PARAMETERS_SigmanToste_Science_ddG_T_Yes = {"lr": 0.000639406857426433, "hl_size": 375, "channel_size": 137, "num_layers": 4, "bs": 2}
+BEST_PARAMETERS_SigmanToste_Science_ddG_T_No = {"lr": 0.00043195344267437275, "hl_size": 244, "channel_size": 404, "num_layers": 4, "bs": 4}
