@@ -12,7 +12,7 @@ smiles_dic = {
 
 def preprocess_data(dataset, tc):
 
-    df = pd.read_csv(f'datasets_230520/{dataset}.csv')
+    df = pd.read_csv(f'../datasets/{dataset}.csv')
 
     # Normalize 'ee' and 'ddG' columns to range [0, 1]
     scaler = MinMaxScaler()
@@ -24,7 +24,7 @@ def preprocess_data(dataset, tc):
 def load_both_datasets(dataset, tc, with_T):
 
     # original data
-    df_orig = pd.read_csv(f'datasets_230520/{dataset}.csv')
+    df_orig = pd.read_csv(f'../datasets/{dataset}.csv')
 
     # predicted data
     if with_T:
@@ -39,7 +39,7 @@ def load_both_datasets(dataset, tc, with_T):
 def load_both_datasets_v2(dataset, prediction_dataset):
 
     # original data
-    df_orig = pd.read_csv(f'datasets_230520/{dataset}.csv')
+    df_orig = pd.read_csv(f'../datasets/{dataset}.csv')
     df_pred = pd.read_csv(prediction_dataset, delimiter=',')
     df_pred = df_pred.dropna(axis=1, how='any')
 

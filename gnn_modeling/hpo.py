@@ -75,7 +75,7 @@ def main():
 
             for with_T in [True, False]:
 
-                df, smiles_list, _ = preprocess_data(dataset)
+                df, smiles_list, _ = preprocess_data(dataset, target_column)
                 
                 train_df, val_df = train_test_split(df, random_state=1337)
                 bs_val = len(val_df)
